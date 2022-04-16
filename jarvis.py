@@ -116,8 +116,8 @@ if __name__ == "__main__":
 
 
         elif 'who made you' in query or 'who created you' in query or "who discovered you" in query:
-            speak("I was built by Mirthula")
-            print("I was built by Mirthula")
+            speak("Here are my Creators")
+            print("Cerators -- Uphaar Sharma, Yogin Pahuja")
         
         elif 'news' in query:
             news = webbrowser.open_new_tab("https://timesofindia.indiatimes.com/home/headlines")
